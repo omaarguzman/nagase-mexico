@@ -1,0 +1,164 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-image: url("../images/logo-nagase-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    text-align: center;
+    background-color: chocolate;
+}
+
+/*Archivo index.html */
+/* Estilos generales para el header */
+.cabecera {
+    text-align: center;
+}
+
+.enlaces {
+    border: solid black 1px;
+}
+
+.enlaces-cabecera li {
+    display: inline;
+    padding: 40px;
+}
+
+.enlaces-cabecera li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Estilos generales para el main */
+p {
+    text-align: justify;
+    padding: 20px;
+    font-weight: 1000;
+    color: rgba(49, 16, 16, 0.87);
+}
+
+#video-introduccion {
+    text-align: left;
+    padding: 5px 30px 5 px 30 px;
+}
+
+/* Estilos generales para el footer*/
+.parrafo-footer {
+    text-align: left;
+    font-weight: 1000;
+    color: rgba(49, 16, 16, 0.87);
+    background-color: beige;
+}
+
+.grupo-enlaces {
+    text-align: center;
+    border: solid black 1px;
+}
+
+.grupo-enlaces li {
+    display: inline;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Archivo presencia-mundo.html */
+/* Estilos generales para el main */
+.ciudades {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#ciudades-1 ul {
+    list-style-type: none;
+    background-color: rgb(182, 133, 143);
+    font-weight: 700px;
+    padding: 0 25px;
+    margin: 0 100px;
+}
+
+#ciudades-2 ul {
+    list-style-type: none;
+    background-color: rgb(182, 133, 143);
+    font-weight: 700px;
+    padding: 0 25px;
+    margin: 0 100px;
+}
+
+#ciudades-3 ul {
+    list-style-type: none;
+    background-color: rgb(182, 133, 143);
+    font-weight: 700px;
+    padding: 0 25px;
+    margin: 0 100px;
+}
+
+/* Archivo productos-servicios.html */
+/* Estilos generales para el main */
+.productos {
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.493);
+}
+
+#productos-1 {
+    margin: 0 20px;
+    font-weight: 900;
+}
+
+#productos-2 {
+    margin: 0 20px;
+    font-weight: 900;
+}
+
+#productos-3 {
+    margin: 0 20px;
+    font-weight: 900;
+}
+
+#productos-4 {
+    margin: 0 20px;
+    font-weight: 900;
+}
+
+#productos-5 {
+    margin: 0 20px;
+    font-weight: 900;
+} 
+
+/* Archivo contacto.html */
+/* Estilos generales para el main */
+form {
+    background-color: green;
+    border-radius: 3px;
+    margin: auto;
+    padding: 15px;
+    width: 300px;
+}
+
+form p {
+    padding: 1px;
+}
+
+form input {
+    height: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+form textarea {
+    width: 300px;
+}
+
+#boton-enviar {
+    text-align: center;
+}
