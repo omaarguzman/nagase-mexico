@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,42 +11,84 @@
     <!-- Vamos a usar una fuente de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <!-- Creamos el cuerpo de la página principal -->
+
 <body>
-    <header class="cabecera">
-        <img src="./images/logo-nagase.png" alt="Logo NAGASE" align="left" height="114" width="341.33" id="imagen">
-        <h1>NAGASE ENTERPRISE MEXICO SA DE CV</h1>
-        <div class="enlaces">
-            <nav class="enlaces-cabecera">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="./pages/quienes-somos.html">Quienes somos</a></li>
-                    <li><a href="./pages/presencia-mundo.html">Presencia en el mundo</a></li>
-                    <li><a href="./pages/productos-servicios.html">Productos y servicios</a></li>
-                    <li><a href="./pages/contacto.html">Contáctanos</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="cabecera">
+            <div class="logo-inicio">
+                <img src="./images/logo-nagase.png" alt="Logo NAGASE" align="left" height="147" width="100%" id="imagen">
+            </div>
+            <div class="cabecera-2">
+                <div class="section-1">
+                    <h1>NAGASE ENTERPRISE MEXICO</h1>
+                </div>
+                <div class="section-2">
+                    <!-- Navbar de Bootstrap -->
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid padding-0 enlaces">
+                            <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon menu-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse menu-div" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ul">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
     <main>
         <section class="cuerpo-index">
-            <iframe id="video-introduccion" width="560" height="315" align="left" src="https://www.youtube.com/embed/owXD1cmDB48?si=ZQ0b1Y2zsnTap1H-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="video-introduccion" width="560" height="315" align="left"
+                src="https://www.youtube.com/embed/owXD1cmDB48?si=ZQ0b1Y2zsnTap1H-" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             <article class="articulo-index">
                 <p>
-                    NAGASE ENTERPRISE MEXICO es una empresa hija del grupo NAGASE Global Group con sede en Japón, que tiene presencia en varios países del mundo como Inglaterra, Francia, Alemania, Finlandia, Hungría, China, Corea del Sur, India, Singapur, Malasia, Tailandia, Estados Unidos, Brasil y México.
+                    NAGASE ENTERPRISE MEXICO es una empresa hija del grupo NAGASE Global Group con sede en Japón, que
+                    tiene presencia en varios países del mundo como Inglaterra, Francia, Alemania, Finlandia, Hungría,
+                    China, Corea del Sur, India, Singapur, Malasia, Tailandia, Estados Unidos, Brasil y México.
                 </p>
                 <p>
-                    NAGASE ENTERPRISE MEXICO vio sus incios a sus operaciones en el año 2010 en el extinto Distrito Federal (ahora Ciudad de México) en una pequeña oficina, pero debido al posicionamiento estratégico de clientes y proveedores, tener una buena ubicación para envío y recepción de productos y materias primas, y aprovechar el rápido crecimiento y desarrollo de la industria en la zona del bajío del país, decidieron re-ubicarse en la ciudad de León en el estado de Guanajuato.
+                    NAGASE ENTERPRISE MEXICO vio sus incios a sus operaciones en el año 2010 en el extinto Distrito
+                    Federal (ahora Ciudad de México) en una pequeña oficina, pero debido al posicionamiento estratégico
+                    de clientes y proveedores, tener una buena ubicación para envío y recepción de productos y materias
+                    primas, y aprovechar el rápido crecimiento y desarrollo de la industria en la zona del bajío del
+                    país, decidieron re-ubicarse en la ciudad de León en el estado de Guanajuato.
                 </p>
                 <p>
-                    Actualmente NAGASE ENTERPRISE MEXICO cuenta con más de 100 clientes en México y en algunos otros países en el ramo automotriz, de plástico y químico, y actualmente está desarrollando productos para la insdustria cosmética y de alimentos.
+                    Actualmente NAGASE ENTERPRISE MEXICO cuenta con más de 100 clientes en México y en algunos otros
+                    países en el ramo automotriz, de plástico y químico, y actualmente está desarrollando productos para
+                    la insdustria cosmética y de alimentos.
                 </p>
             </article>
         </section>
-        
+
     </main>
     <footer>
         <section class="parrafo-footer">
@@ -74,4 +117,5 @@
         </div>
     </footer>
 </body>
+
 </html>

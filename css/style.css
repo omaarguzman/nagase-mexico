@@ -1,10 +1,17 @@
+/* Reset todos los valores por igual */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Esta propiedad sirve para que el padding no haga más grande mi caja */
+}
+
 html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
     background-image: url("../images/logo-nagase-2.jpg");
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
 }
 
@@ -15,22 +22,64 @@ h2 {
 
 /*Archivo index.html */
 /* Estilos generales para el header */
+.logo-inicio {
+    /* background-color: blue; */
+    border: 1px solid black;
+    height: 150px;
+    width: 33%px;
+}
+
 .cabecera {
     text-align: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.cabecera-2 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.section-1 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    font-size: 30px;
+    border: solid black 1px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    
 }
 
 .enlaces {
-    border: solid black 1px;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
 
-.enlaces-cabecera li {
-    display: inline;
-    padding: 40px;
-}
+.menu-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+} 
 
-.enlaces-cabecera li a {
-    color: black;
+.menu-ul {
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+} 
+
+.menu-ul li a {
     text-decoration: none;
+    color: black;
 }
 
 /* Estilos generales para el main */
