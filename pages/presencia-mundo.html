@@ -15,19 +15,47 @@
 
 <!-- Creamos el cuerpo de la página principal -->
 <body>
-    <header class="cabecera">
-        <img src="../images/logo-nagase.png" alt="Logo NAGASE" align="left" height="114" width="341.33" id="imagen">
-        <h1>NAGASE ENTERPRISE MEXICO SA DE CV</h1>
-        <div class="enlaces">
-            <nav class="enlaces-cabecera">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./quienes-somos.html">Quienes somos</a></li>
-                    <li><a href="./presencia-mundo.html">Presencia en el mundo</a></li>
-                    <li><a href="./productos-servicios.html">Productos y servicios</a></li>
-                    <li><a href="./contacto.html">Contáctanos</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="cabecera">
+            <div class="logo-inicio">
+                <img src="../images/logo-nagase.png" alt="Logo NAGASE" align="left" height="147" width="100%" id="imagen">
+            </div>
+            <div class="cabecera-2">
+                <div class="section-1">
+                    <h1>NAGASE ENTERPRISE MEXICO</h1>
+                </div>
+                <div class="section-2">
+                    <!-- Navbar de Bootstrap -->
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid padding-0 enlaces">
+                            <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon menu-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse menu-div" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ul">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./quienes-somos.html">Quiénes somos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./presencia-mundo.html">Presencia en el mundo</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./productos-servicios.html">Productos y servicios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
     <main>
