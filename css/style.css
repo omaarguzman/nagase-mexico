@@ -52,58 +52,7 @@ h2 {
 
 .enlaces {
     flex-grow: 0;
-}
-
-.cabecera-2 {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    align-items: center;
-    /* justify-content: space-between; */
-}
-
-.section-1 {
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.685);
-    border-bottom: 3px solid black;
-    /* border: 1px solid black; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-
-.section-2 {
-    font-size: 20px;
-    /* border: solid black 1px; */
-    /* height: 75px; */
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-}
-
-.enlaces {
     display: flex;
-    /* width: 100%; */
-    /* height: 100%; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-}
-
-.menu-div {
-    display: flex;
-    align-items: center;
-    width: 100%;
-} 
-
-.menu-ul {
-    width: 100%;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-} 
-
-.menu-ul li a {
-    text-decoration: none;
-    color: black;
 }
 
 /* Estilos generales para el main */
