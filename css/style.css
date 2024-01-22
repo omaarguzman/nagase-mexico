@@ -1,5 +1,4 @@
 /* Reset todos los valores por igual */
-
 * {
     margin: 0;
     padding: 0;
@@ -10,100 +9,122 @@ html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-body {
-    background-image: url("./../images/bg-img.png");
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
-
 h1 {
     text-align: center;
-    margin: 30px;
+    padding: 30px;
+    padding-bottom: 0px;
+    font-size: 60px;
     color: rgb(77, 73, 73);
     text-shadow: 3px 3px 3px red, 0 0 1em gray;
 }
 
 h2 {
     text-align: center;
-    background-color: chocolate;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 800;
 }
 
-/*Archivo index.html */
+h3 {
+    margin: 50px;
+}
+
+h4 {
+    background-color: rgb(71, 71, 71);
+    border-radius: 20px;
+    font-size: 40px;
+    color: rgb(252, 113, 113);
+    padding: 15px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
 /* Estilos generales para el header */
 .logo-inicio {
     border-right: 3px solid black;
-    /* background-color: blue; */
-    /* display: flex; */
-    /* border: 1px solid black; */
     padding: 20px;
-    /* height: 150px; */
-    /* width: 33%px; */
 }
 
 .cabecera {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* text-align: center; */
     justify-content: space-between;
     grid-template-columns: 25% 75%;
-    margin: 30px;
+    margin: 50px;
     border: 5px solid gray;
     border-radius: 30px;
-    /* overflow: hidden; */
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.58);
+}
+
+.container-fluid {
+    background-color: white;
 }
 
 /* Modificar tamaño imagen */
 .nag-img {
-    width: 300px;
+    width: 320px;
 }
 
 .enlaces {
     flex-grow: 0;
-    display: flex;
 }
 
-/* Estilos generales para el main */
-.cuerpo-index {
-    display: grid;
-    grid-template-columns: 40% 60%;
+.enlaces ul {
+    align-items: center;
+    column-gap: 15px;
 }
 
-.articulo-index {
-    padding: 50px;
+.nav-link {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(248, 110, 110);
+    border-radius: 30px;
 }
 
-p {
-    text-align: justify;
-    padding: 20px;
-    font-weight: 1000;
-    color: rgba(49, 16, 16, 0.87);
+.nav-link:hover {
+    background-color: gray;
 }
 
-#video-introduccion {
-    text-align: left;
-    padding: 30px;
-    width: 100%;
-    height: 100%;
+.nav-link:focus {
+    background-color: rgb(218, 218, 218);
+}
+
+.menu-hamburguesa {
+    background-image: url(./../images/menu-hamburguesa.png);
 }
 
 /* Estilos generales para el footer*/
 .parrafo-footer {
     text-align: left;
-    font-weight: 1000;
+    font-weight: 600;
+    font-size: 30px;
     color: rgba(49, 16, 16, 0.87);
     background-color: beige;
 }
 
 .grupo-enlaces {
-    text-align: center;
-    border: solid black 1px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 100%;
+    background-color: rgb(208, 205, 240);
 }
 
-.grupo-enlaces li {
-    display: inline;
-    padding: 100px;
+.redes-sociales {
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociales a:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.redes-sociales a:focus {
+    background-color: yellow;
 }
 
 .copyright {
@@ -111,79 +132,162 @@ p {
     font-size: 12px;
 }
 
+/* Archivo index.html */
+.section-index {
+    background-image: url("./../images/bg-img-2.png");
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.cuerpo-index {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.articulo-index {
+    display: grid;
+    font-size: 25px;
+    margin: 40px;
+}
+
+.p-index {
+    text-align: justify;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+#video-introduccion {
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+/* Archivo quienes-somos.html */
+.section-quienes {
+    background-image: url(../images/img-filosofia.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.grid-container {
+    border: 3px solid black;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin: 70px 100px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.p-quienes {
+    font-size: 30px;
+}
+
+.ul-quienes {
+    font-size: 30px;
+}
+
 /* Archivo presencia-mundo.html */
-/* Estilos generales para el main */
+.section-mundo {
+    background-image: url(../images/bg-img.png);
+}
+
+.div-img-mundo {
+    display: flex;
+    justify-content: center;
+}
+
+.img-mundo {
+    width: 100%;
+    margin: 50px;
+    border: 1px solid black;
+}
 .ciudades {
     text-align: justify;
     display: flex;
+    justify-content: space-around;
+}
+
+.ciudades ul {
+    list-style-type: none;
+    font-weight: 700px;
+    margin: 0 100px;
+    padding-left: 0rem;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    font-size: 30px;
+}
+
+.ciudades ul li {
+    display: flex;
     justify-content: center;
-    background-color: white;
-}
-
-#ciudades-1 ul {
-    list-style-type: none;
-    background-color: rgb(182, 133, 143);
-    font-weight: 700px;
-    padding: 0 25px;
-    margin: 0 100px;
-}
-
-#ciudades-2 ul {
-    list-style-type: none;
-    background-color: rgb(182, 133, 143);
-    font-weight: 700px;
-    padding: 0 25px;
-    margin: 0 100px;
-}
-
-#ciudades-3 ul {
-    list-style-type: none;
-    background-color: rgb(182, 133, 143);
-    font-weight: 700px;
-    padding: 0 25px;
-    margin: 0 100px;
+    align-items: center;
+    border: 1px solid black;
+    font-weight: 700;
+    width: 100%;
 }
 
 /* Archivo productos-servicios.html */
-/* Estilos generales para el main */
+.section-pys {
+    background-image: url(../images/bg-img-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.carrusel {
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.img-carousel {
+    width: 100vw;
+}
+
 .productos {
-    display: flex;
-    background-color: rgba(0, 0, 255, 0.493);
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
 }
 
-#productos-1 {
-    margin: 0 20px;
-    font-weight: 900;
+.productos-1 {
+    background-color: ;
+    font-weight: 500px;
+    font-size: 25px;
 }
 
-#productos-2 {
-    margin: 0 20px;
-    font-weight: 900;
+.productos-1 h5 {
+    background-color: red;
 }
 
-#productos-3 {
-    margin: 0 20px;
-    font-weight: 900;
+.productos-1 ul {
+    background-color: rgb(197, 197, 197);
 }
-
-#productos-4 {
-    margin: 0 20px;
-    font-weight: 900;
-}
-
-#productos-5 {
-    margin: 0 20px;
-    font-weight: 900;
-} 
 
 /* Archivo contacto.html */
-/* Estilos generales para el main */
 form {
-    background-color: green;
-    border-radius: 3px;
+    background-color: rgb(2, 201, 2);
+    border-radius: 25px;
     margin: auto;
     padding: 15px;
-    width: 300px;
+    width: 330px;
 }
 
 form p {
@@ -193,7 +297,12 @@ form p {
 form input {
     height: 30px;
     width: 300px;
+    font-size: 20px;
     text-align: center;
+}
+
+form label {
+    font-size: 25px;
 }
 
 form textarea {
@@ -202,4 +311,85 @@ form textarea {
 
 #boton-enviar {
     text-align: center;
+}
+
+/* Medias query proyecto */
+@media screen and (max-width: 991px) {
+    .enlaces {
+        /* position: absolute; */
+        top: 1000px;
+        background-color: white;
+        width: 100vw;
+        z-index: 1;
+    }
+
+    .nav-link {
+        background-color: white;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Archivo index.html */
+    .video {
+        width: 100%;
+        height: 400px;
+    }
+
+    .cuerpo-index {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grupo-enlaces {
+        padding: 30px;
+        display: grid;
+        grid-template-rows: repeat(3, 33%);
+        grid-template-columns: 100%;
+        background-color: white;
+    }
+
+        /* Archivo quienes-somos.html */
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(6, 300px);
+        grid-template-columns: 100vw;
+    }
+
+    .grid-item {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .p-quienes {
+        font-size: 20px;
+    }
+    
+    .ul-quienes {
+        font-size: 20px;
+    }
+
+    /* Archivo presencia-mundo.html */
+    .ciudades {
+        text-align: justify;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ciudades ul {
+        font-weight: 300px;
+        padding: 0 25px;
+        margin: 0 100px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(14, 40px);
+        font-size: 20px;
+    }
+
+    .div-img-mundo {
+        margin: 30px;
+    }
 }
