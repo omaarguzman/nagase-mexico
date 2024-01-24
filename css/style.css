@@ -161,7 +161,7 @@ h5 {
 }
 
 /* Archivo index.html */
-.section-index {
+.body-index {
     background-image: url("./../images/bg-img-2.png");
     width: 100%;
     height: 100%;
@@ -194,7 +194,7 @@ h5 {
 }
 
 /* Archivo quienes-somos.html */
-.section-quienes {
+.body-quienes {
     background-image: url(../images/img-filosofia.png);
     background-size: cover;
     background-attachment: fixed;
@@ -229,7 +229,7 @@ h5 {
 }
 
 /* Archivo presencia-mundo.html */
-.section-mundo {
+.body-mundo {
     background-image: url(../images/bg-img.png);
     background-attachment: fixed;
 }
@@ -273,7 +273,7 @@ h5 {
 }
 
 /* Archivo productos-servicios.html */
-.section-pys {
+.body-pys {
     background-image: url(../images/bg-img-3.png);
     background-size: cover;
     background-attachment: fixed;
@@ -353,9 +353,9 @@ form textarea {
 }
 
 /* Medias query proyecto */
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
     .enlaces {
-        /* position: absolute; */
+        position: absolute;
         top: 1000px;
         background-color: white;
         width: 100vw;
@@ -366,13 +366,13 @@ form textarea {
         background-color: white;
         font-weight: 400;
     }
-}
+} */
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width:320px) and (max-width: 767px) {
     /* Archivo index.html */
     .video {
         width: 100%;
-        height: 400px;
+        height: 200px;
     }
 
     .cuerpo-index {
