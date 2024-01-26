@@ -9,12 +9,12 @@ html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-header {
+/* header {
     position: sticky;
     top: 0;
-}
+} */
 
-h1 {
+/* h1 {
     text-align: center;
     margin-bottom: 0;
     padding: 50px 20px;
@@ -23,7 +23,7 @@ h1 {
     color: rgb(77, 73, 73);
     text-shadow: 3px 3px 3px red, 0 0 1em gray;
     z-index: 1;
-}
+} */
 
 h2 {
     text-align: center;
@@ -49,12 +49,12 @@ h5 {
 }
 
 /* Estilos generales para el header */
-.logo-inicio {
+/* .logo-inicio {
     border-right: 3px solid black;
     padding: 20px;
-}
+} */
 
-.cabecera {
+/* .cabecera {
     justify-content: space-between;
     grid-template-columns: 25% 75%;
     margin: 0 50px 50px 50px;
@@ -63,20 +63,20 @@ h5 {
     background-color: white;
     overflow: hidden;
     box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.58);
-}
+} */
 
-.container-fluid {
+/* .container-fluid {
     background-color: white;
-}
+} */
 
 /* Modificar tamaño imagen */
-.nag-img {
+/* .nag-img {
     width: 320px;
-}
+} */
 
-.enlaces {
+/* .enlaces {
     flex-grow: 0;
-}
+} */
 
 .enlaces ul {
     align-items: center;

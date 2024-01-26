@@ -1,3 +1,32 @@
-
+header {
+  position: sticky;
+  top: 0;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 50px 20px;
+  background-color: rgb(145, 145, 145);
+  font-size: 60px;
+  color: rgb(77, 73, 73);
+  text-shadow: 3px 3px 3px red, 0 0 1em gray;
+  z-index: 1;
+}
+header div .cabecera {
+  justify-content: space-between;
+  grid-template-columns: 25% 75%;
+  margin: 0 50px 50px 50px;
+  border: 5px solid gray;
+  border-radius: 30px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.58);
+}
+header div .cabecera .container-fluid {
+  background-color: white;
+}
+header div .cabecera .container-fluid a .nag-img {
+  width: 320px;
+}
 
 /*# sourceMappingURL=main.css.map */
