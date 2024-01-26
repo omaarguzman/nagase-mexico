@@ -126,6 +126,10 @@ h5 {
     align-items: center;
 }
 
+.redes-sociales img {
+    width: 54px;
+}
+
 .redes-sociales a:hover {
     background-color: rgb(170, 170, 170);
 }
