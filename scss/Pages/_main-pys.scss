@@ -1,0 +1,35 @@
+.main-pys {
+    .carrusel {
+        margin: 100px;
+        margin-top: 50px;
+
+        div{
+            .carousel-inner {
+                .img-carousel {
+                    width: 100vw;
+                }
+            }
+        }
+    }
+
+    .productos {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 50px;
+
+        .productos-1 {
+            font-weight: 500px;
+            font-size: 25px;
+
+            .h5-productos {
+                background-color: red;
+                margin: 0;
+            }
+
+            .ul-productos {
+                background-color: rgb(197, 197, 197);
+            }
+        }
+    }
+}

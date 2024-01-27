@@ -1,1 +1,14 @@
+@import "utilities/reset";
+@import "utilities/globals";
 
+@import "components/header";
+
+@import "pages/main-index";
+@import "pages/main-quienes";
+@import "pages/main-mundo";
+@import "pages/main-pys";
+@import "pages/main-contacto";
+
+@import "components/footer";
+
+@import "utilities/media-queries";

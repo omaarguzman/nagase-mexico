@@ -1,0 +1,40 @@
+.main-mundo {
+    .ciudades {
+        text-align: justify;
+        display: flex;
+        justify-content: space-around;
+
+        ul {
+            list-style-type: none;
+            font-weight: 700px;
+            margin: 0 100px;
+            padding-left: 0rem;
+            width: 100%;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(5, 60px);
+            font-size: 30px;
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid black;
+                font-weight: 700;
+                width: 100%;
+            }
+        }
+    }
+
+    .div-img-mundo {
+        display: flex;
+        justify-content: center;
+
+        .img-mundo {
+            width: 100%;
+            margin: 50px;
+            border: 1px solid black;
+        }
+    }
+}

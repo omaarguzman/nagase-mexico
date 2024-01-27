@@ -1,0 +1,41 @@
+.main-contacto {
+    .grilla-contacto {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0 100px 0;
+
+        .mapa {
+            iframe {
+                width: 700px;
+                height: 500px;
+            }
+        }
+
+        div {
+            .formulario {
+                form {
+                    background-color: rgb(2, 201, 2);
+                    border-radius: 25px;
+                    margin: auto;
+                    padding: 15px;
+                    width: 330px;
+
+                    label {
+                        font-size: 25px;
+                    }
+
+                    input {
+                        height: 30px;
+                        width: 300px;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+
+                    textarea {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
