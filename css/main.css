@@ -187,12 +187,26 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   border: 1px solid black;
 }
 
+.main-pys .menu-bootstrap nav .menu-bootstrap-ul {
+  position: relative;
+  z-index: -1;
+}
 .main-pys .carrusel {
   margin: 100px;
   margin-top: 50px;
 }
+.main-pys .carrusel div .rayitas-carrusel {
+  position: relative;
+  z-index: -1;
+}
 .main-pys .carrusel div .carousel-inner .img-carousel {
   width: 100vw;
+  position: relative;
+  z-index: -1;
+}
+.main-pys .carrusel div .carousel-inner .carousel-item div .h4-carrusel {
+  position: relative;
+  z-index: -1;
 }
 .main-pys .productos {
   display: grid;
@@ -226,19 +240,19 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   border-radius: 25px;
   margin: auto;
   padding: 15px;
-  width: 330px;
+  width: 600px;
 }
 .main-contacto .grilla-contacto div .formulario form label {
   font-size: 25px;
 }
 .main-contacto .grilla-contacto div .formulario form input {
   height: 30px;
-  width: 300px;
+  width: 570px;
   font-size: 20px;
   text-align: center;
 }
 .main-contacto .grilla-contacto div .formulario form textarea {
-  width: 300px;
+  width: 570px;
 }
 
 .parrafo-footer {

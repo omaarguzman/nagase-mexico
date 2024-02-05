@@ -1,12 +1,37 @@
 .main-pys {
+    .menu-bootstrap {
+        nav {
+            .menu-bootstrap-ul {
+                position: relative;
+                z-index: -1;
+            }
+        }
+    }
+
     .carrusel {
         margin: 100px;
         margin-top: 50px;
 
-        div{
+        div {
+            .rayitas-carrusel {
+                position: relative;
+                z-index: -1;
+            }
+
             .carousel-inner {
                 .img-carousel {
                     width: 100vw;
+                    position: relative;
+                    z-index: -1;
+                }
+
+                .carousel-item {
+                    div {
+                        .h4-carrusel {
+                            position: relative;
+                            z-index: -1;
+                        }
+                    }
                 }
             }
         }
