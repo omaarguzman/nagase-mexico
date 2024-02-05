@@ -316,10 +316,6 @@ section .chat-imagen .chat {
 /* Tablet */
 @media screen and (max-width: 1023px) {
   /* Estilos globales */
-  h1 {
-    font-size: 30px;
-    padding: 30px 10px;
-  }
   h2 {
     font-size: 25px;
   }
@@ -328,16 +324,20 @@ section .chat-imagen .chat {
     margin: 20px;
   }
   /* Estilos header */
-  .cabecera {
+  header h1 {
+    font-size: 30px;
+    padding: 30px 10px;
+  }
+  header div .cabecera {
     margin: 0px 40px 50px 40px;
   }
-  .cabecera .img-navbar {
+  header div .cabecera .container-fluid .img-navbar {
     width: 250px;
   }
-  .cabecera .img-navbar .nag-img {
+  header div .cabecera .container-fluid .img-navbar .nag-img {
     width: 250px;
   }
-  /*Estilos Fotter */
+  /*Estilos Footer */
   .parrafo-footer {
     font-size: 25px;
   }
@@ -393,10 +393,6 @@ section .chat-imagen .chat {
 /* Mobile */
 @media screen and (max-width: 768px) {
   /* Estilos generales */
-  h1 {
-    font-size: 1em;
-    padding: 15px 0;
-  }
   h2 {
     font-size: 15px;
   }
@@ -405,14 +401,21 @@ section .chat-imagen .chat {
     margin: 10px;
   }
   /* Estilos header */
-  .cabecera {
+  header {
+    position: relative;
+  }
+  header h1 {
+    font-size: 1em;
+    padding: 15px 0;
+  }
+  header div .cabecera {
     margin: 0px 20px 10px 20px;
   }
-  .cabecera .img-navbar {
-    width: 100px;
+  header div .cabecera .container-fluid .img-navbar {
+    width: 150px;
   }
-  .cabecera .img-navbar .nag-img {
-    width: 100px;
+  header div .cabecera .container-fluid .img-navbar .nag-img {
+    width: 150px;
   }
   /*Estilos Footer */
   .parrafo-footer {
