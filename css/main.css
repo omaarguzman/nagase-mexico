@@ -54,6 +54,14 @@ h5 {
   background-attachment: fixed;
 }
 
+.main-contacto .grilla-contacto div .formulario form {
+  background-color: rgb(2, 201, 2);
+  border-radius: 25px;
+  margin: auto;
+  padding: 15px;
+  width: 600px;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -234,13 +242,6 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
 .main-contacto .grilla-contacto .mapa iframe {
   width: 700px;
   height: 500px;
-}
-.main-contacto .grilla-contacto div .formulario form {
-  background-color: rgb(2, 201, 2);
-  border-radius: 25px;
-  margin: auto;
-  padding: 15px;
-  width: 600px;
 }
 .main-contacto .grilla-contacto div .formulario form label {
   font-size: 25px;

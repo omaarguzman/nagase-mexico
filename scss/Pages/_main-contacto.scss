@@ -14,11 +14,7 @@
         div {
             .formulario {
                 form {
-                    background-color: rgb(2, 201, 2);
-                    border-radius: 25px;
-                    margin: auto;
-                    padding: 15px;
-                    width: 600px;
+                    @extend %estilo-form;
 
                     label {
                         font-size: 25px;
