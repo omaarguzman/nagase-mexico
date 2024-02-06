@@ -129,11 +129,11 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
 }
 
 .main-quienes .grid-container {
-  border: 3px solid black;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: 1fr 2fr;
   align-items: center;
+  border: 3px solid black;
   margin: 70px 100px;
 }
 .main-quienes .grid-container .grid-item {
@@ -362,7 +362,16 @@ section .chat-imagen .chat {
   .main-index .cuerpo-index .articulo-index .p-index {
     font-size: 25px;
   }
-  /*Archivo Contacto.html */
+  /* Archivo productos-servicios.html */
+  .main-pys .menu-bootstrap .menu-pagination .menu-bootstrap-ul {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  }
+  .main-pys .carrusel .slide .carousel-inner .carousel-item div .h4-carrusel {
+    font-size: 20px;
+  }
+  /* Archivo Contacto.html */
   .main-contacto .grilla-contacto {
     display: flex;
     flex-wrap: wrap;
@@ -479,6 +488,10 @@ section .chat-imagen .chat {
   }
   .main-mundo .div-img-mundo {
     margin: 30px;
+  }
+  /* Archivo productos-servicios.html */
+  .main-pys .carrusel .slide .carousel-inner .carousel-item div .h4-carrusel {
+    font-size: 5px;
   }
   /* Archivo contacto.html */
   .main-contacto .grilla-contacto {

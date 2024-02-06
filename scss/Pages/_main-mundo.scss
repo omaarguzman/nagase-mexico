@@ -28,8 +28,7 @@
     }
 
     .div-img-mundo {
-        display: flex;
-        justify-content: center;
+        @include flex(center);
 
         .img-mundo {
             width: 100%;

@@ -10,11 +10,11 @@ h3 {
 }
 
 h4 {
-    background-color: rgb(71, 71, 71);
-    border-radius: 20px;
-    font-size: 40px;
-    color: rgb(252, 113, 113);
-    padding: 15px;
+    background-color: $bgcolor-h4;
+    border-radius: map-get($map: $estilo-h4, $key: br-h4);
+    font-size: map-get($map: $estilo-h4, $key: fs-h4);
+    color: $color-h4;
+    padding: map-get($map: $estilo-h4, $key: padding-h4);
 }
 
 h5 {
