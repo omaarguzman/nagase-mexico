@@ -21,20 +21,30 @@ header {
             border: 5px solid gray;
             border-radius: 30px;
             background-color: white;
-            overflow: hidden;
             box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.58);
-
+            
             .container-fluid {
                 background-color: white;
+                border-radius: 30px;
+                padding-left: 0;
 
                 a {
                     .nag-img {
                         width: 320px;
+                        padding-left: 10px;
                     }
                 }
 
                 .enlaces {
                     flex-grow: 0;
+                    // position: absolute;
+                    // top: 60px;
+                    // width: 100%;
+                    background-color: white;
+                    // border: 5px solid gray;
+                    // border-radius: 0 0 30px 30px;
+                    // border-top: none;
+                    // padding: 10px;
 
                     ul {
                         align-items: center;
@@ -58,6 +68,7 @@ header {
                         }
                     }
                 }
+
                 button {
                     .menu-hamburguesa {
                         background-image: url(./../images/menu-hamburguesa.png);

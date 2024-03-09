@@ -22,11 +22,11 @@
         div {
             .cabecera {
                 margin: 0px 40px 50px 40px;
-                
+
                 .container-fluid {
                     .img-navbar {
                         width: 250px;
-        
+
                         .nag-img {
                             width: 250px;
                         }
@@ -79,9 +79,9 @@
         .menu-bootstrap {
             .menu-pagination {
                 .menu-bootstrap-ul {
-                width: 80vw;
-                display: flex;
-                justify-content: center;
+                    width: 80vw;
+                    display: flex;
+                    justify-content: center;
                 }
             }
         }
@@ -144,6 +144,32 @@
     }
 }
 
+/* Menú hamburguesa */
+@media screen and (max-width: 991px) {
+
+    /* Estilos para header */
+    header {
+        div {
+            .cabecera {
+                margin: 0px 40px 50px 40px;
+
+                .container-fluid {
+                    .enlaces {
+                        position: absolute;
+                        top: 90px;
+                        width: 100%;
+                        border: 5px solid gray;
+                        border-radius: 0 0 30px 30px;
+                        border-top: none;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 /* Mobile */
 @media screen and (max-width: 768px) {
 
@@ -173,7 +199,7 @@
                 .container-fluid {
                     .img-navbar {
                         width: 150px;
-            
+
                         .nag-img {
                             width: 150px;
                         }
