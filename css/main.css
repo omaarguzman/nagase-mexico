@@ -14,7 +14,7 @@ h2 {
 }
 
 h3 {
-  margin: 50px;
+  margin: 20px;
 }
 
 h4 {
@@ -35,7 +35,7 @@ h5 {
 }
 
 .main-contacto .grilla-contacto div .formulario form {
-  background-color: rgb(2, 201, 2);
+  background-color: rgb(248, 110, 110);
   border-radius: 25px;
   margin: auto;
   padding: 15px;
@@ -83,7 +83,7 @@ header div .cabecera .container-fluid .enlaces ul {
   column-gap: 15px;
 }
 header div .cabecera .container-fluid .enlaces ul li .nav-link {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   background-color: rgb(248, 110, 110);
   border-radius: 30px;
@@ -116,7 +116,7 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
 .main-index .cuerpo-index .articulo-index .p-index {
   text-align: justify;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: rgb(51, 51, 51);
 }
 
 .main-quienes .grid-container {
@@ -125,7 +125,7 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   grid-template-columns: 1fr 2fr;
   align-items: center;
   border: 3px solid black;
-  margin: 70px 100px;
+  margin: 30px;
 }
 .main-quienes .grid-container .grid-item {
   border: 1px solid black;
@@ -135,6 +135,7 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .main-quienes .grid-container .grid-item .p-quienes {
   font-size: 30px;
@@ -154,7 +155,6 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   margin: 0 100px;
   padding-left: 0rem;
   width: 100%;
-  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 60px);
@@ -178,10 +178,6 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   border: 1px solid black;
 }
 
-.main-pys .menu-bootstrap nav .menu-bootstrap-ul {
-  position: relative;
-  z-index: -1;
-}
 .main-pys .carrusel {
   margin: 100px;
   margin-top: 50px;
@@ -191,7 +187,7 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   z-index: -1;
 }
 .main-pys .carrusel div .carousel-inner .img-carousel {
-  width: 100vw;
+  width: 100%;
   position: relative;
   z-index: -1;
 }
@@ -220,11 +216,17 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
 .main-contacto .grilla-contacto {
   display: flex;
   justify-content: space-around;
-  margin: 50px 0 100px 0;
+  margin: 50px 20px 100px 20px;
+}
+.main-contacto .grilla-contacto .mapa {
+  margin: 20px;
 }
 .main-contacto .grilla-contacto .mapa iframe {
   width: 700px;
   height: 500px;
+}
+.main-contacto .grilla-contacto div .formulario form {
+  margin: 20px;
 }
 .main-contacto .grilla-contacto div .formulario form label {
   font-size: 25px;
@@ -244,7 +246,7 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   font-weight: 600;
   font-size: 30px;
   color: rgba(49, 16, 16, 0.87);
-  background-color: beige;
+  background-color: rgb(206, 206, 206);
 }
 
 .grupo-enlaces {
@@ -252,26 +254,15 @@ header div .cabecera .container-fluid button .menu-hamburguesa {
   display: grid;
   grid-template-columns: repeat(3, 33%);
   grid-template-rows: 100%;
-  background-color: rgb(208, 205, 240);
+  background-color: rgb(255, 186, 186);
 }
 .grupo-enlaces .redes-sociales {
-  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .grupo-enlaces .redes-sociales img {
-  width: 54px;
-}
-.grupo-enlaces .redes-sociales a {
-  text-decoration: none;
-  color: black;
-}
-.grupo-enlaces .redes-sociales:hover {
-  background-color: rgb(170, 170, 170);
-}
-.grupo-enlaces .redes-sociales:focus {
-  background-color: yellow;
+  width: 110px;
 }
 
 .copyright {
@@ -295,7 +286,7 @@ section .chat-imagen .chat {
   display: flex;
   justify-content: center;
   font-size: 20px;
-  background-color: yellow;
+  background-color: rgb(248, 110, 110);
   border-radius: 20px;
   padding: 0 5px;
 }
@@ -333,10 +324,16 @@ section .chat-imagen .chat {
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(3, 33%);
-    background-color: rgb(202, 202, 202);
   }
-  .grupo-enlaces .redes-sociales a {
-    font-size: 30px;
+  .grupo-enlaces .redes-sociales img {
+    width: 80px;
+  }
+  section .chat-imagen img {
+    width: 80px;
+    border-radius: 20px;
+  }
+  section .chat-imagen .chat {
+    font-size: 10px;
   }
   /* Archivo index.html */
   .main-index .cuerpo-index {
@@ -350,6 +347,20 @@ section .chat-imagen .chat {
   .main-index .cuerpo-index .articulo-index .p-index {
     font-size: 25px;
   }
+  /* Archivo quienes-somos.html */
+  .main-quienes .grid-container .grid-item .p-quienes {
+    font-size: 20px;
+  }
+  .main-quienes .grid-container .grid-item .ul-quienes li {
+    font-size: 20px;
+  }
+  /* Archivo presencia-mundo.html */
+  .main-mundo .ciudades ul {
+    margin: 0 50px;
+  }
+  .main-mundo .ciudades ul li {
+    font-size: 20px;
+  }
   /* Archivo productos-servicios.html */
   .main-pys .menu-bootstrap .menu-pagination .menu-bootstrap-ul {
     width: 80vw;
@@ -358,6 +369,9 @@ section .chat-imagen .chat {
   }
   .main-pys .carrusel .slide .carousel-inner .carousel-item div .h4-carrusel {
     font-size: 20px;
+  }
+  .main-pys .productos .productos-1 .h5-productos {
+    font-size: 30px;
   }
   /* Archivo Contacto.html */
   .main-contacto .grilla-contacto {
@@ -402,6 +416,9 @@ section .chat-imagen .chat {
     border-top: none;
     padding: 10px;
   }
+  header div .cabecera .container-fluid .enlaces ul li .nav-link {
+    font-size: 20px;
+  }
 }
 /* Mobile */
 @media screen and (max-width: 768px) {
@@ -424,6 +441,12 @@ section .chat-imagen .chat {
   header div .cabecera {
     margin: 0px 20px 10px 20px;
   }
+  header div .cabecera .container-fluid .enlaces {
+    top: 60px;
+  }
+  header div .cabecera .container-fluid .enlaces ul li .nav-link {
+    font-size: 15px;
+  }
   header div .cabecera .container-fluid .img-navbar {
     width: 150px;
   }
@@ -432,17 +455,23 @@ section .chat-imagen .chat {
   }
   /*Estilos Footer */
   .parrafo-footer {
-    font-size: 20px;
+    font-size: 15px;
   }
   .grupo-enlaces {
     padding: 20px;
-    background-color: white;
     display: flex;
     flex-direction: column;
     height: 202px;
   }
-  .grupo-enlaces .redes-sociales a {
-    font-size: 20px;
+  .grupo-enlaces .redes-sociales img {
+    width: 54px;
+  }
+  section .chat-imagen img {
+    width: 60px;
+    border-radius: 10px;
+  }
+  section .chat-imagen .chat {
+    font-size: 10px;
   }
   /* Archivo index.html */
   .main-index .cuerpo-index {
@@ -460,7 +489,7 @@ section .chat-imagen .chat {
   .main-quienes .grid-container {
     display: grid;
     grid-template-rows: repeat(6, 300px);
-    grid-template-columns: 100vw;
+    grid-template-columns: 100%;
   }
   .main-quienes .grid-container .grid-item {
     height: 300px;
@@ -469,10 +498,10 @@ section .chat-imagen .chat {
     justify-content: center;
   }
   .main-quienes .grid-container .grid-item .p-quienes {
-    font-size: 20px;
+    font-size: 15px;
   }
-  .main-quienes .grid-container .grid-item .ul-quienes {
-    font-size: 20px;
+  .main-quienes .grid-container .grid-item .ul-quienes li {
+    font-size: 15px;
   }
   /* Archivo presencia-mundo.html */
   .main-mundo .ciudades {
@@ -482,8 +511,8 @@ section .chat-imagen .chat {
   }
   .main-mundo .ciudades ul {
     font-weight: 300px;
-    padding: 0 25px;
-    margin: 0 100px;
+    padding: 0 20px;
+    margin: 0 20px;
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
@@ -495,7 +524,16 @@ section .chat-imagen .chat {
   }
   /* Archivo productos-servicios.html */
   .main-pys .carrusel .slide .carousel-inner .carousel-item div .h4-carrusel {
-    font-size: 5px;
+    font-size: 20px;
+  }
+  .main-pys .productos {
+    margin: 0 30px;
+  }
+  .main-pys .productos .productos-1 .h5-productos {
+    font-size: 20px;
+  }
+  .main-pys .productos .productos-1 ul li {
+    font-size: 15px;
   }
   /* Archivo contacto.html */
   .main-contacto .grilla-contacto {

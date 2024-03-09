@@ -2,9 +2,11 @@
     .grilla-contacto {
         display: flex;
         justify-content: space-around;
-        margin: 50px 0 100px 0;
+        margin: 50px 20px 100px 20px;
 
         .mapa {
+            margin: 20px;
+
             iframe {
                 width: 700px;
                 height: 500px;
@@ -15,6 +17,7 @@
             .formulario {
                 form {
                     @extend %estilo-form;
+                    margin: 20px;
 
                     label {
                         font-size: 25px;

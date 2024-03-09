@@ -1,13 +1,4 @@
 .main-pys {
-    .menu-bootstrap {
-        nav {
-            .menu-bootstrap-ul {
-                position: relative;
-                z-index: -1;
-            }
-        }
-    }
-
     .carrusel {
         margin: 100px;
         margin-top: 50px;
@@ -20,7 +11,7 @@
 
             .carousel-inner {
                 .img-carousel {
-                    width: 100vw;
+                    width: 100%;
                     position: relative;
                     z-index: -1;
                 }

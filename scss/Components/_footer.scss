@@ -3,7 +3,7 @@
     font-weight: 600;
     font-size: 30px;
     color: rgba(49, 16, 16, 0.87);
-    background-color: beige;
+    background-color: rgb(206, 206, 206);
 }
 
 .grupo-enlaces {
@@ -11,29 +11,15 @@
     display: grid;
     grid-template-columns: repeat(3, 33%);
     grid-template-rows: 100%;
-    background-color: rgb(208, 205, 240);
+    background-color: rgb(255, 186, 186);
 
     .redes-sociales {
-        font-size: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
 
         img {
-            width: 54px;
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-        &:hover {
-            background-color: rgb(170, 170, 170);
-        }
-
-        &:focus {
-            background-color: yellow;
+            width: 110px;
         }
     }
 }
@@ -61,7 +47,7 @@ section {
             display: flex;
             justify-content: center;
             font-size: 20px;
-            background-color: yellow;
+            background-color: rgb(248, 110, 110);
             border-radius: 20px;
             padding: 0 5px;
         }
